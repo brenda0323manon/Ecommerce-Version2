@@ -1,0 +1,21 @@
+.Image3, .Image1, .Image5, .Image4, .Image2 {
+    width: 25%;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .Image3, .Image5, .Image1, .Image4, .Image2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    .Image3, .Image5, .Image1, .Image4, .Image2 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1800px) {
+    .Image3, .Image5, .Image1, .Image4, .Image2 {
+        width: 110%;
+    }
+}

@@ -1,0 +1,57 @@
+    main {
+         display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .contact-us {
+        width: 40%;
+        height: 70%;
+        background-color:#FFF6EC;
+        margin: 1% 1% 1%;
+        padding: 1% 1% 1%;
+    }
+    
+    .contact {
+        text-align: center;
+        padding: 7%;
+    }
+    
+    .form {
+        font-size: 125%;
+    }
+    
+    .contact-heading {
+        font-size: 250%;
+    }
+    
+    .input{
+        width: 97%;
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+    
+    #email{
+        width: 15%;
+        padding: 1%;
+        margin: 1%;
+    }
+    
+    .send {
+        font-family: 'Exo 2', sans-serif; 
+        padding: 1% 2% 1%;
+        margin-top: 2%;
+        background-color: white;
+    }
+    
+    #message {
+        width: 100%;
+        height: 180px;
+    }
+    
+    .oil{
+        margin-top: 10%;
+        width: 100%;
+        height: 80%;
+    }
+    
+    

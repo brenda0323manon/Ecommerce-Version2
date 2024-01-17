@@ -1,0 +1,30 @@
+.subscribe {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color:#F2EBE1;
+    padding-top: 5%;
+}
+
+.sub_head {
+    font-size: 300%;
+    margin: 5% 0 3%;
+}
+
+.update {
+    font-size: 250%;
+}
+
+.signUp {
+   padding: 1%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Exo 2', sans-serif;
+    padding-top: 1%;
+    font-size: 125%;
+    text-align: center;
+    padding-bottom: 8%;
+    background-color:#F2EBE1;
+}

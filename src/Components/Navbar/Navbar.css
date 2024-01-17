@@ -1,0 +1,114 @@
+.navigation {
+    padding-top: .50%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 10%;
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.header{
+    background-image: url(../Assets/minimilistic.jpeg);
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    padding-bottom: 20%;
+} 
+h1 {
+    font-size: 500%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.slogan {
+    font-size: 150%;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    padding: 0 2% 0;
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.learn {
+    font-size: 100%;
+    align-items: center;
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    padding: 1% 2% 1%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+} 
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 370%;
+        padding-bottom: 17%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    h1 {
+        font-size: 300%;
+        padding-bottom: 8%;
+    }
+    .slogan {
+        padding-top: 10%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 525px) {
+    h1 {
+        font-size: 400%;
+        padding-bottom: 6%;
+    }
+    .slogan {
+        padding-top: 10%;
+        font-size: 115%;
+    }
+}
+
+@media only screen and (min-width: 525px) and (max-width: 651px) {
+    h1 {
+        font-size: 400%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 750px) {
+    h1 {
+        font-size: 450%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    h1 {
+        font-size: 450%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+}

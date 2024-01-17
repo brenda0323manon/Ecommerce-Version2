@@ -1,0 +1,515 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop_products {
+    font-size: 300%;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Exo 2', sans-serif; 
+    background-color: white;
+}
+
+.products {
+    background-color: white;
+    height: 20%;
+    width: 20%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.products_name {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif; 
+    text-decoration: underline;
+
+}
+
+.Glycolic {
+    margin-right: 2%;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif; 
+    text-decoration: underline;
+    margin: 1%;
+}
+
+.price {
+    margin-right: 1%;
+}
+
+
+/* Display our items */
+.Display {
+    display: flex;
+    background-color:#FFF6EC;
+    margin-bottom: 3%;
+}
+
+.Aside_Pic {
+    height: 10%;
+    width: 20%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ .about {
+    margin-top: 20%;
+    font-size: 400%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+} 
+
+.text_aside {
+    margin: 10% 15% 0;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* service spa  */
+.spa {
+    display: flex;
+    font-size: 150%;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.spaName {
+    display: flex;
+    font-size: 150%;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 4%;
+    
+}
+
+.service {
+    padding-left: .50%;
+}
+
+.price1 {
+    padding-left: 2%;
+}
+
+.price2 {
+    padding-left: 3%;
+}
+
+.spaPics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.basicSpa, .advancedSpa {
+    padding-top: 2%;
+    height: 10%;
+    width: 49%;
+}
+
+.purple {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff6ec;
+    margin-top: 1%;
+}
+
+.purpleBottle {
+    margin-top: 3%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    width: 20%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+
+.product {
+    margin: 10% 15% 0;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #fff6ec;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 370%;
+        padding-bottom: 17%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 100%;
+    }
+    .shop_products {
+        font-size: 150%;
+    }
+    .products_name {
+        font-size: 10%;
+        padding-left: 10%;
+    }
+    .prices {
+        font-size: 50%;
+    }
+    .Display {
+        display: inherit;
+    }
+    .Aside_Pic {
+        width: 70%;
+        padding-top: 5%;
+        margin-left: 16%;
+    }
+    .about {
+        margin-top: 5%;
+        font-size: 175%;
+    }
+    .text_aside {
+        font-size: 110%;
+        padding-bottom: 10%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 100%;
+        text-align: center;
+        margin: 1%;
+    }
+    .purple {
+        display: inherit;
+    }
+    .product {
+        padding-top: 5%;
+        font-size: 100%;
+    }
+    .purpleBottle {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .sub_head {
+        font-size: 200%;
+    }
+    .update {
+        font-size: 100%;
+    }
+    .footer {
+        display: inherit;
+        font-size: 100%;
+    }
+    .Location, .hours, .info {
+        padding: 3%;
+        background-color:#F2EBE1;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    h1 {
+        font-size: 300%;
+        padding-bottom: 8%;
+    }
+    .slogan {
+        padding-top: 10%;
+        font-size: 100%;
+    }
+    .shop_products {
+        font-size: 150%;
+    }
+    .products_name{
+        font-size: 75%;
+        text-align: center;
+        padding: 3%;
+    }
+    .prices {
+        font-size: 70%;
+    }
+    .Display {
+        display: inherit;
+    }
+    .Aside_Pic {
+        width: 70%;
+        padding-top: 5%;
+        margin-left: 16%;
+    }
+    .about {
+        margin-top: 5%;
+        font-size: 175%;
+    }
+    .text_aside {
+        font-size: 110%;
+        padding-bottom: 10%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 100%;
+        text-align: center;
+        margin: 1%;
+    }
+    .purple {
+        display: inherit;
+    }
+    .product {
+        padding-top: 5%;
+        font-size: 100%;
+    }
+    .purpleBottle {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .sub_head {
+        font-size: 200%;
+    }
+    .update {
+        font-size: 100%;
+    }
+    .footer {
+        display: inherit;
+        font-size: 100%;
+    }
+    .Location, .hours, .info {
+        padding: 3%;
+        background-color:#F2EBE1;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 525px) {
+    h1 {
+        font-size: 400%;
+        padding-bottom: 6%;
+    }
+    .slogan {
+        padding-top: 10%;
+        font-size: 115%;
+    }
+    .shop_products {
+        font-size: 175%;
+    }
+    .products_name{
+        font-size: 90%;
+        text-align: center;
+        padding: 3%;
+    }
+    .prices {
+        font-size: 90%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .Display {
+        display: inherit;
+    }
+    .Aside_Pic {
+        width: 70%;
+        padding-top: 5%;
+        margin-left: 16%;
+    }
+    .about {
+        margin-top: 5%;
+        font-size: 250%;
+    }
+    .text_aside {
+        font-size: 140%;
+        padding-bottom: 10%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 120%;
+        text-align: center;
+        margin: 1%;
+    }
+    .purple {
+        display: inherit;
+    }
+    .product {
+        padding-top: 5%;
+        font-size: 130%;
+    }
+    .purpleBottle {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .sub_head {
+        font-size: 250%;
+    }
+    .update {
+        font-size: 125%;
+    }
+    .footer {
+        display: inherit;
+        font-size: 125%;
+    }
+    .Location, .hours, .info {
+        padding: 3%;
+        background-color:#F2EBE1;
+    }
+}
+
+@media only screen and (min-width: 525px) and (max-width: 651px) {
+    h1 {
+        font-size: 400%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+    .shop_products {
+        font-size: 250%;
+    }
+    .products_name{
+        font-size: 100%;
+        text-align: center;
+        padding: 3%;
+    }
+    .prices {
+        font-size: 100%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .Display {
+        display: inherit;
+    }
+    .Aside_Pic {
+        width: 70%;
+        padding-top: 5%;
+        margin-left: 16%;
+    }
+    .about {
+        margin-top: 5%;
+        font-size: 300%;
+    }
+    .text_aside {
+        font-size: 170%;
+        padding-bottom: 7%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 150%;
+        text-align: center;
+        margin: 1%;
+    }
+    .purple {
+        display: inherit;
+    }
+    .product {
+        padding-top: 5%;
+        font-size: 140%;
+    }
+    .purpleBottle {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .sub_head {
+        font-size: 300%;
+    }
+    .update {
+        font-size: 150%;
+    }
+    .footer {
+        display: inherit;
+        font-size: 150%;
+    }
+    .Location, .hours, .info {
+        padding: 3%;
+        background-color:#F2EBE1;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 750px) {
+    h1 {
+        font-size: 450%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+    .shop_products {
+        font-size: 300%;
+    }
+    .products_name{
+        font-size: 150%;
+        text-align: center;
+        padding: 3%;
+    }
+    .prices {
+        font-size: 150%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .Aside_Pic {
+        width: 40%;
+        padding-top: 5%;
+        margin-left: 8%;
+    }
+    .about {
+        margin-top: 35%;
+        font-size: 300%;
+    }
+    .text_aside {
+        font-size: 190%;
+        padding-bottom: 7%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 170%;
+    }
+    .product {
+        font-size: 140%;
+    }
+    .purpleBottle {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    h1 {
+        font-size: 450%;
+        padding-bottom: 5%;
+    }
+    .slogan {
+        margin-top: 3%;
+        font-size: 115%;
+    }
+    .shop_products {
+        font-size: 300%;
+    }
+    .products_name{
+        font-size: 150%;
+        text-align: center;
+        padding: 3%;
+    }
+    .prices {
+        font-size: 150%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .Aside_Pic {
+        width: 40%;
+        padding-top: 5%;
+        margin-left: 8%;
+    }
+    .about {
+        margin-top: 35%;
+        font-size: 300%;
+        padding-bottom: 10%;
+    }
+    .text_aside {
+        font-size: 190%;
+        padding-bottom: 7%;
+    }
+    .spaName, .spa, .spaPics {
+        font-size: 170%;
+    }
+    .product {
+        font-size: 140%;
+    }
+    .purpleBottle {
+        width: 35%;
+    }
+}
+
+
+
+
+
+

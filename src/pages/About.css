@@ -1,0 +1,128 @@
+/* .title{
+    font-size: 375%;
+    background-color: #FFF6EC;
+    
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.skin-care {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:#FFF6EC;
+}
+
+.product-container {
+    width:33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.product-img-wrap {
+    height:10%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+} 
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding: 3%;
+}
+
+.product-sell {
+   font-size: 120%;
+   font-weight: bolder;
+}
+
+.glycolic {
+    width: 50%;
+}
+
+.nia {
+    width: 50%;
+}
+
+.hyaluronic {
+    width: 50%;
+}
+
+.HA {
+    margin-top: 10%;
+    width: 50%;
+}
+
+.eye1{
+    margin-top: 15%;
+    width: 47%;
+}
+
+.copper {
+    margin-top: 15%;
+    width: 50%;
+}
+
+.pink {
+   width: 13%;
+   margin-left: 19%;
+   margin-top: 12%; 
+}
+
+.eye {
+    width: 50%;
+}
+
+.hydrate {
+    width: 55%;
+}
+
+.factors {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.lash {
+    width: 50%;
+    margin-top: 5%;
+}
+.acid {
+    width: 55%;
+}
+
+@media only screen and (max-width: 700px) {
+    .product-container{
+        width: 50%;
+    }
+    .update{
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .product-container {
+    width: 100%;
+   }
+}
+ */
+
+
