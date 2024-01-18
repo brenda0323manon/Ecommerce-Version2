@@ -30,6 +30,27 @@
     font-weight: bold; 
   }
 
+  .dropDown {
+    padding: 5px;
+    text-align: center;  
+  }
+  .filters {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 2rem;
+    background-color:#F2EBE1;
+  }
+  .SearchBar {
+    width: 50%;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 500%;
+    /* background-color:#F2EBE1; */
+    font-family: 'Exo 2', sans-serif;
+  } 
+
   @media only screen and (min-width: 350px) and (max-width: 650px)  {
     .product-page {
         width: 100%; 

@@ -1,7 +1,5 @@
 import React from 'react';
 import './pages/home.css';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
 import FaceSerum from './Components/Assets/Hyaluronic-Acid.jpeg';
 import Niacinamide from './Components/Assets/niacinamide.png';
 import Argireline from './Components/Assets/Argireline .jpeg';
@@ -15,7 +13,6 @@ import SlideShow from './Components/SlideShow/SlideShow';
 export default function Home() {
   return (
     <div>
-     <Navbar/>
      <section>
         <aside>
             <h2 className="shop_products">Shop our products</h2>
@@ -63,7 +60,6 @@ export default function Home() {
             <img className="purpleBottle"  src={Dropper} alt="skin care products"></img>
         </div> 
       </section>
-     <Footer/>
     </div>
 
   )

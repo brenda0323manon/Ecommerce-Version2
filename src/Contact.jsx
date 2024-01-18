@@ -1,7 +1,5 @@
 import React from 'react';
 import validator from 'validator';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
 import Oil from './Components/Assets/oil.jpeg';
 import './pages/Contact.css';
 
@@ -42,7 +40,6 @@ export default function Contact() {
 
   return (
     <div>
-      <Navbar/>
       <main>
         <aside className="contact-us error" id="form">
           <div className="contact">
@@ -85,7 +82,6 @@ export default function Contact() {
           <img className="oil" src={Oil} alt="Oil bottles"/>
         </div>
       </main>
-      <Footer/>
     </div>
   )
 }    

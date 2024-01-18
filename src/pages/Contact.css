@@ -54,4 +54,30 @@
         height: 80%;
     }
     
+    @media only screen and (min-width: 300px) and (max-width: 600px)  {
+        .oil {
+            display: none;
+        }
+        .contact-us {
+            width: 100%;
+            margin: 1rem;
+            padding: 1rem;
+      }
     
+    }
+
+    @media only screen and (min-width: 601px) and (max-width: 800px)  {
+        .oil {
+            margin-top: 10%;
+            width: 90%;
+            height: 60%;
+            margin-top: 40%;
+            
+        }
+        .contact-us {
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+      }
+    
+    }
