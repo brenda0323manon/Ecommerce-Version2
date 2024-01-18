@@ -1,128 +1,62 @@
-/* .title{
-    font-size: 375%;
-    background-color: #FFF6EC;
-    
-}
-
-.main {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.skin-care {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color:#FFF6EC;
-}
-
-.product-container {
-    width:33%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+ .product-container {
     margin-bottom: 5rem;
-}
-
-.product-img-wrap {
-    height:10%;
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-} 
-
-.product-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .product-page {
+    width: 50%; 
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 35%; 
+    margin-left: 34%;
+  }
+  
+  .product-info {
+    padding: 3%;
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    text-align: center;
     margin-left: 15%;
     margin-right: 10%;
-    padding: 3%;
-}
+  }
+  
+  .product-sell {
+    font-size: 120%;
+    font-weight: bold; 
+  }
 
-.product-sell {
-   font-size: 120%;
-   font-weight: bolder;
-}
+  @media only screen and (min-width: 350px) and (max-width: 650px)  {
+    .product-page {
+        width: 100%; 
+        margin-bottom: 20px;
+      }
+      .product-image {
+        width: 70%;
+        margin-left: 18%;
+      }
+  }
 
-.glycolic {
-    width: 50%;
-}
-
-.nia {
-    width: 50%;
-}
-
-.hyaluronic {
-    width: 50%;
-}
-
-.HA {
-    margin-top: 10%;
-    width: 50%;
-}
-
-.eye1{
-    margin-top: 15%;
-    width: 47%;
-}
-
-.copper {
-    margin-top: 15%;
-    width: 50%;
-}
-
-.pink {
-   width: 13%;
-   margin-left: 19%;
-   margin-top: 12%; 
-}
-
-.eye {
-    width: 50%;
-}
-
-.hydrate {
-    width: 55%;
-}
-
-.factors {
-    width: 50%;
-    margin-top: 5%;
-}
-
-.lash {
-    width: 50%;
-    margin-top: 5%;
-}
-.acid {
-    width: 55%;
-}
-
-@media only screen and (max-width: 700px) {
-    .product-container{
+  @media only screen and (min-width: 650px) and (max-width: 1000px)  {
+    .product-page {
+        width: 50%; 
+      }
+      .product-image {
         width: 50%;
-    }
-    .update{
-        font-size: 150%;
-    }
-}
+        margin-left: 28%;
+      }
+  }
 
-@media only screen and (max-width: 375px) {
-    .product-container {
-    width: 100%;
-   }
-}
- */
-
-
+  @media only screen and (min-width: 1001px) and (max-width: 1500px)  {
+    .product-page {
+        width: 50%; 
+      }
+      .product-image {
+        width: 43%;
+        margin-left: 30%;
+      }
+  }

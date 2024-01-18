@@ -19,3 +19,9 @@
         width: 110%;
     }
 }
+
+@media only screen and (min-width: 1800px) and (max-width: 2200px) {
+    .Image3, .Image5, .Image1, .Image4, .Image2 {
+        width: 100%;
+    }
+}

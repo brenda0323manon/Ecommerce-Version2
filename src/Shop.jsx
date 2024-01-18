@@ -7,9 +7,9 @@ import Footer from './Components/Footer/Footer';
 const Store = (props) => {
   
   return (
-    <div className="product-container">
+    <div className="product-page">
       <div className="product-img-wrap">
-        <img src={props.Product_Image} alt="skin care products"></img>
+        <img className="product-image" src={props.Product_Image} alt="skin care products"></img>
       </div>
       <div className="product-info">
         <span className="product-sell">{props.Product_Name}</span>
@@ -24,7 +24,7 @@ const ProductList = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/product")
+    fetch("http://localhost:5000/product")
     .then(res => res.json())
     .then(data => setData(data))
     .catch(err => console.log(err))
@@ -51,4 +51,3 @@ const ProductList = () => {
 };
 
 export default ProductList;
-

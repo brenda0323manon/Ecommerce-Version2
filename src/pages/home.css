@@ -141,14 +141,6 @@ a {
 }
 
 @media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 370%;
-        padding-bottom: 17%;
-    }
-    .slogan {
-        margin-top: 3%;
-        font-size: 100%;
-    }
     .shop_products {
         font-size: 150%;
     }
@@ -208,14 +200,6 @@ a {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 450px) {
-    h1 {
-        font-size: 300%;
-        padding-bottom: 8%;
-    }
-    .slogan {
-        padding-top: 10%;
-        font-size: 100%;
-    }
     .shop_products {
         font-size: 150%;
     }
@@ -276,14 +260,6 @@ a {
 }
 
 @media only screen and (min-width: 450px) and (max-width: 525px) {
-    h1 {
-        font-size: 400%;
-        padding-bottom: 6%;
-    }
-    .slogan {
-        padding-top: 10%;
-        font-size: 115%;
-    }
     .shop_products {
         font-size: 175%;
     }
@@ -346,14 +322,6 @@ a {
 }
 
 @media only screen and (min-width: 525px) and (max-width: 651px) {
-    h1 {
-        font-size: 400%;
-        padding-bottom: 5%;
-    }
-    .slogan {
-        margin-top: 3%;
-        font-size: 115%;
-    }
     .shop_products {
         font-size: 250%;
     }
@@ -416,14 +384,6 @@ a {
 }
 
 @media only screen and (min-width: 651px) and (max-width: 750px) {
-    h1 {
-        font-size: 450%;
-        padding-bottom: 5%;
-    }
-    .slogan {
-        margin-top: 3%;
-        font-size: 115%;
-    }
     .shop_products {
         font-size: 300%;
     }
@@ -462,14 +422,6 @@ a {
 }
 
 @media only screen and (min-width: 750px) and (max-width: 900px) {
-    h1 {
-        font-size: 450%;
-        padding-bottom: 5%;
-    }
-    .slogan {
-        margin-top: 3%;
-        font-size: 115%;
-    }
     .shop_products {
         font-size: 300%;
     }
