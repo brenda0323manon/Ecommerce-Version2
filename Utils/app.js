@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express()
 app.use(cors())
 
-const database = mysql.createPool({
+const database = mysql.createConnection({
     host: 'products.c1suigess9hp.us-east-1.rds.amazonaws.com',
     user: 'root',
     password: 'password',
