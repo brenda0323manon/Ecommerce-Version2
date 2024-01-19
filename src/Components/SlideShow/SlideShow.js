@@ -1,11 +1,11 @@
 // Import Swiper React components
 import React , { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image1 from  './src/Components/Assets/Image1.jpg';
-import Image2 from './src/Components/Assets/Image2.jpg';
-import Image3 from './src/Components/Assets/Image3.avif';
-import Image4 from './src/Components/Assets/Image4.jpg';
-import Image5 from './src/Components/Assets/pexels-karolina-grabowska-4735904 (1).jpg';
+import Image1 from  '../Assets/Image1.jpg';
+import Image2 from '../Assets/Image2.jpg';
+import Image3 from '../Assets/Image3.avif';
+import Image4 from '../Assets/Image4.jpg';
+import Image5 from '../Assets/pexels-karolina-grabowska-4735904 (1).jpg';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import './SlideShow.css'
 import 'swiper/css';
