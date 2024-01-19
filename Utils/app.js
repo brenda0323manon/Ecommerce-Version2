@@ -5,24 +5,27 @@ const cors = require('cors');
 const app = express()
 app.use(cors())
 
-const database = mysql.createConnection({
-    host: 'localhost',
+const database = mysql.createPool({
+    host: 'products.c1suigess9hp.us-east-1.rds.amazonaws.com',
     user: 'root',
     password: 'password',
-    database: 'Ecommerce_Products'
-})
-
-app.get('/', (req,res) => {
-    return res.json("From the Backend Side")
-})
-
-app.get('/product', (req,res) => {
+    database: 'Ecommerce_Products',
+  });
+  
+  app.get('/', (req, res) => {
+    return res.json("From the Backend Side");
+  });
+  
+  app.get('/product', (req, res) => {
     const SQL = 'SELECT * FROM Products';
     database.query(SQL, (err, data) => {
-        return res.json(data)
-    })
-})
-
-app.listen(5000, ()=> {
-    console.log('Server is listening on port 5000')
-})
+      if (err) {
+        console.log('Error fetching data:', err);
+      }
+      return res.json(data);
+    });
+  });
+  
+  app.listen(5000, () => {
+    console.log('Server is listening on port 5000');
+  });

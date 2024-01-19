@@ -33,21 +33,20 @@
   .dropDown {
     padding: 5px;
     text-align: center;  
+    border: 2px solid black;
   }
   .filters {
     display: flex;
     justify-content: center;
     padding: 2rem 0 2rem;
-    background-color:#F2EBE1;
   }
   .SearchBar {
     width: 50%;
+    border: 2px solid black;
   }
-
   .title{
     text-align: center;
     font-size: 500%;
-    /* background-color:#F2EBE1; */
     font-family: 'Exo 2', sans-serif;
   } 
 
