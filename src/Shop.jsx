@@ -23,7 +23,7 @@ const ProductList = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://ecommerccce-version2.onrender.com/shop")
     .then(res => res.json())
     .then(data => setData(data))
     .catch(err => console.log(err))
