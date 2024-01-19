@@ -23,7 +23,7 @@ const ProductList = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("products.c1suigess9hp.us-east-1.rds.amazonaws.com")
     .then(res => res.json())
     .then(data => setData(data))
     .catch(err => console.log(err))
