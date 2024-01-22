@@ -23,12 +23,15 @@ const ProductList = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch("products.c1suigess9hp.us-east-1.rds.amazonaws.com")
+    fetch("http://localhost:5000/product")
     .then(res => res.json())
-    .then(data => setData(data))
+    .then(data => { 
+      console.log(data)
+      setData(data)
+    })
     .catch(err => console.log(err))
   }, [])
-
+       
   const sortProducts = (option) => {
     let sortedData = [...data];
     console.log(sortedData)

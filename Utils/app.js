@@ -10,6 +10,7 @@ const database = mysql.createConnection({
     user: 'root',
     password: 'password',
     database: 'Ecommerce_Products',
+    // port: '3306'
   });
   
   app.get('/', (req, res) => {
